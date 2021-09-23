@@ -1,0 +1,11 @@
+###
+DELETE http://localhost:8080
+
+###
+@period=3
+@name=third
+@word=ccc
+POST http://localhost:8080/?period={{period}}&name={{name}}&word={{word}}
+
+###
+DELETE http://localhost:8080/first
